@@ -23,6 +23,8 @@ android {
 
     compileSdkVersion 29
 
+    ndkVersion "21.3.6528147"
+
     signingConfigs {
         release {
             def apkStoreFile = System.getenv("APK_SIGNING_STORE_FILE")
